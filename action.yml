@@ -19,7 +19,7 @@ runs:
     - name: Set up Scarb
       uses: software-mansion/setup-scarb@v1
       with:
-        version: ${{ inputs.scarb-version }}
+        scarb-version: ${{ inputs.scarb-version }}
 
     - name: Update dependencies
       run: scarb update
